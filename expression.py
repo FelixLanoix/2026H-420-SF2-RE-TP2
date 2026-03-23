@@ -14,4 +14,4 @@ class Expression(ABC):
 
     @abstractmethod
     def __str__(self) -> str:
-        """Retourne une representation lisible de l'expression."""
+        """Retourne  une representation lisible de l'expression."""
