@@ -17,8 +17,7 @@ class Sin(Expression):
         return resultat
     
     def __str__(self) -> str:
-        resultat = f"sin({self.u})"
-        return resultat
+        return f"sin({self.u})"
 
 class Cos(Expression):
 
@@ -34,8 +33,7 @@ class Cos(Expression):
         return resultat
 
     def __str__(self) -> str:
-        resultat = f"cos({self.u})"
-        return resultat
+        return f"cos({self.u})"
 
 
 class Exp(Expression):
@@ -51,6 +49,5 @@ class Exp(Expression):
         return resultat
 
     def __str__(self) -> str:
-        resultat = f"exp({self.u})"
-        return resultat
+        return f"exp({self.u})"
 
