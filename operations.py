@@ -6,7 +6,7 @@ class Addition(Expression):
         self.u = u
         self.v = v
 
-    def evaluer(self, x: float) -> float:
+    def evaluer(self, x: float) -> float: # pas besoinn de tout recoder vu que c'est une Expression, la methode evaluer existe deja 
         resultat = self.u.evaluer(x) + self.v.evaluer(x)
         return resultat
 
